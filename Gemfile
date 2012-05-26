@@ -49,6 +49,7 @@ group :development, :test do
     gem (RUBY_VERSION == "1.9.2" ? 'ruby-debug19' : 'debugger'), :platform => :mri_19
   end
   gem 'pry-rails'
+  gem 'heroku'
 end
 
 group :test do
